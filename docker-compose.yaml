@@ -1,0 +1,7 @@
+services:
+  apache:
+    build: './apache/'
+  filezilla:
+    build: './filezilla/'
+  mysql:
+    build: './mysql/'
