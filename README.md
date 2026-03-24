@@ -25,18 +25,26 @@ Perfect for developers who need a quick, isolated database backend without the b
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed on your machine.
 - [Docker Compose](https://docs.docker.com/compose/install/) (included with Docker Desktop).
 
-### Installation & Run
+### (Option 1) Installation & Run
 
 1.  **Clone this repository**:
-    ```bash
-    git clone https://github.com/tarsislimadev/xampp.git
-    cd xampp
-    ```
+```bash
+git clone https://github.com/tarsislimadev/xampp.git
+cd xampp
+```
 
 2.  **Start the services**:
-    ```bash
-    docker compose up -d
-    ```
+```bash
+docker compose up -d
+```
+
+### (Option 2) Run
+
+**Run with NPX**
+
+```bash
+npx myadmin
+```
 
 ---
 
