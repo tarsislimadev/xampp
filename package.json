@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tarsislimadev/myadmin/issues"
   },
-  "homepage": "https://github.com/tarsislimadev/myadmin#readme"
+  "homepage": "https://github.com/tarsislimadev/myadmin#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
