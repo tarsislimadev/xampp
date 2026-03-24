@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 
-const pack = require('./package.json')
+const { port } = require('./config.js')
+const express = require('express')
+const app = express()
 
-console.log(`MyAdmin v${pack.version}`)
+app.use(express.static('public'))
+
+app.get('/api/v1', require('./api/v1/'))
+
+app.listen(port, () => console.log(`Listening on ${port}`))
